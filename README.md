@@ -10,7 +10,7 @@
 
 ## Download
 
-Download the theme you like from the link below, Right click and save the file as css into your theme folder
+Download the theme from the link below, Right click and save the file as css into your theme folder
 
 [Download](https://raw.githubusercontent.com/4dvyte/Lawn-theme/main/lawn.theme.css)
 
