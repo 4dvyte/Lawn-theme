@@ -1,6 +1,6 @@
 /**
  * @name Lawn
- * @version 0.1
+ * @version 0.2
  * @author Adv
  * @authorId 792994333350559774
  * @description Lawn, a clean minimal theme.
@@ -43,6 +43,7 @@
   --background-modifier-active: #110c0c52;
   --background-modifier-selected: #1f151552;
 }
+/* Light theme coming soon */
 
 :root {
   --scrollbar-auto-track: var(--background-tertiary);
@@ -51,7 +52,6 @@
   --channeltextarea-background: var(--background-secondary);
   --input-background: var(--background-secondary);
 }
-
 
 .wordmark-2u86JB::before {
   content: var(--app-title) !important;
