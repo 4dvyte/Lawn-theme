@@ -1,0 +1,146 @@
+/**
+ * @name Lawn
+ * @version 0.1
+ * @author Adv
+ * @authorId 792994333350559774
+ * @description Lawn, a clean minimal theme.
+*/
+
+/* 
+██╗░░░░░░█████╗░░██╗░░░░░░░██╗███╗░░██╗
+██║░░░░░██╔══██╗░██║░░██╗░░██║████╗░██║
+██║░░░░░███████║░╚██╗████╗██╔╝██╔██╗██║
+██║░░░░░██╔══██║░░████╔═████║░██║╚████║
+███████╗██║░░██║░░╚██╔╝░╚██╔╝░██║░╚███║
+╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░░╚══╝ 
+*/
+
+/* iconsax extension import */
+@import url('https://discord-extensions.github.io/essence/src/vendors/iconsax-discord.css');
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.inner-1ilYF7 *, html, body, .bot-XvK26D, .username-3JLfHz, .discrimBase-KriZSj, .scroller-1jBQYo, .text-sm-medium-2-Xzsi, .text-sm-normal-AEQz4v, .textarea-_59yqs {
+  font-family: 'Comfortaa';
+}
+
+
+:root {
+  --accent: #3cb371;
+  --round-corners: 30px;
+  --app-title: "Lawn";
+}
+
+.theme-dark {
+  --background-primary: #2e2e2e !important;
+  --background-secondary: #252525 !important;
+  --background-secondary-alt: var(--background-secondary) !important;
+  --background-tertiary: #1a1a1a !important;
+  --background-floating: #1b1b1b !important;
+  --background-modifier-hover: #302c2c52;
+  --background-modifier-active: #110c0c52;
+  --background-modifier-selected: #1f151552;
+}
+
+:root {
+  --scrollbar-auto-track: var(--background-tertiary);
+  --SC-spotify-green: var(--accent);
+  --chat-background: var(--background-secondary);
+  --channeltextarea-background: var(--background-secondary);
+  --input-background: var(--background-secondary);
+}
+
+
+.wordmark-2u86JB::before {
+  content: var(--app-title) !important;
+  display: unset !important;
+  width: 100px;
+  font-size: 15px;
+}
+
+.wordmark-2u86JB svg {
+  display: none !important;
+}
+
+.theme-dark .footerSeparator-VzAYwb,
+.drawerSizingWrapper-1txdWG {
+  background: var(--background-primary) !important;
+}
+
+.container-ZMc96U.themed-Hp1KC_,
+.container-3eG4QA,
+.header-1zd7se,
+.container-3PVapX {
+  background-color: var(--background-primary) !important;
+}
+
+.scroller-35tvpe, .root-22AK9z, .container-ZMc96U, .scroller-1bVxF5 {
+  background-color: var(--background-tertiary) !important;
+}
+
+.childWrapper-1j_1ub,
+.themed-2-lozF.selected-g-kMVV,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N,
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+.bd-switch input:checked+.bd-switch-body,
+.bd-button,
+.textBadge-1fdDPJ,
+.tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1,
+.tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1:hover,
+.newMessagesBar-1hF-9G,
+.navButtonActive-1EqC5l, .navButtonActive-1EqC5l:hover {
+  background-color: var(--accent) !important;
+}
+
+.bd-link {
+  color: var(--accent) !important;
+}
+
+.top-K_jibn .item-3XjbnG {
+  background: none !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent) !important;
+}
+.pointerEvents-9SZWKj {
+  display: flow-root;
+}
+
+.scroller-1bVxF5{
+  background: var(--background-floating) !important;
+}
+
+.header-145e10.expanded-2H1xJ- {
+  background: var(--background-tertiary) !important;
+}
+
+.row-7jGzPR,
+.container-nwU-8G,
+.container-iA3Qrz,
+.channelHeader-DFRX8q,
+.row-7jGzPR,
+.container-1A0qQO,
+.homeContainer-r4Hvv1 {
+  background: var(--background-primary) !important;
+}
+
+.circleIconButton-1VxDrg {
+  color: var(--accent) !important;
+}
+
+.folder-241Joy,
+.folderIconWrapper-1oRIZr,
+.expandedFolderIconWrapper-3RwQpD,
+.searchBar-jGtisZ,
+.scrollableContainer-15eg7h,
+.clickable-LksVCf,
+.replyBar-1oi75v,
+.attachedBars-2BCP3l,
+.closeButton-3IEry2,
+.threadSuggestionBar-3ExSyc {
+  border-radius: var(--round-corners) !important;
+}
+
+/* Add your edit here */
+
