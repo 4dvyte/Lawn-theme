@@ -1,7 +1,3 @@
-
-█░░ ▄▀█ █░█░█ █▄░█
-█▄▄ █▀█ ▀▄▀▄▀ █░▀█
-
 # Lawn
  A minimalistic BetterDiscord theme.
  
