@@ -1,5 +1,6 @@
-# Lawn
+# Lawn | Alpha Build ⚠️
  A minimalistic BetterDiscord theme.
+ This Build is still in Alpha stage.
  
 # Preview
 ### Home Page

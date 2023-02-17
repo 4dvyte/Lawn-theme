@@ -43,7 +43,17 @@
   --background-modifier-active: #110c0c52;
   --background-modifier-selected: #1f151552;
 }
-/* Light theme coming soon */
+
+.theme-light {
+  --background-primary: #c5c5c5 !important;
+  --background-secondary: #d1d1d1 !important;
+  --background-secondary-alt: var(--background-secondary) !important;
+  --background-tertiary: #ebebeb !important;
+  --background-floating: #e9e9e9 !important;
+  --background-modifier-hover: #cabbbb52;
+  --background-modifier-active: #e0cccc52;
+  --background-modifier-selected: #ebd9d952;
+}
 
 :root {
   --scrollbar-auto-track: var(--background-tertiary);
